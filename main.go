@@ -28,7 +28,7 @@ func main() {
 			input := scanner.Text()
 			avPositions, err := getAvailablePositions(input)
 			if err != nil {
-				println(err)
+				println(err.Error())
 				continue
 			}
 
